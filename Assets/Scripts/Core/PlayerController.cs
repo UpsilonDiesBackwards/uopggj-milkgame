@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         movement *= moveSpeed;
 
         // Move
-        rb.velocity = movement;
+        rb.velocity.x = movement.x;
 
         if (input_hor > 0.5f || input_hor < -0.5f ) {
             isPlayerMoving = true;
