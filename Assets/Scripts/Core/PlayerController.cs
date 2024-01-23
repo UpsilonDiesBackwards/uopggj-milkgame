@@ -7,12 +7,6 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
 
-    /*
-     * PLAYER MOVEMENT VARAIBLES ::
-     * moveSpeed: the speed of which the player moves at
-     * isPlayerMoving: boolean what states if player is moving
-     * lastMove: the last move and direction the player was at
-     */
     public float moveSpeed;
     private bool isPlayerMoving;
     private Vector2 lastMove;
@@ -29,16 +23,19 @@ public class PlayerController : MonoBehaviour
 
         float input_hor = Input.GetAxisRaw("Horizontal");
 
-        Vector2 movement = new Vector2(input_hor, 0f).normalized;
+        Vector2 movement = new Vector2(input_hor, 0f);
 
         movement *= moveSpeed;
 
-        // Move
-        rb.velocity.x = movement.x;
+        rb.velocity = new(movement.x, rb.velocity.y);
 
         if (input_hor > 0.5f || input_hor < -0.5f ) {
             isPlayerMoving = true;
             lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            rb.velocity = new(rb.velocity.x, 10f);
         }
 
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
