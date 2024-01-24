@@ -41,10 +41,10 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new(rb.velocity.x, 10f);
         }
 
-        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-        anim.SetBool("isMoving?", isPlayerMoving);
-        anim.SetFloat("LastMoveX", lastMove.x);
-        anim.SetFloat("LastMoveY", lastMove.y);
+        // anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
+        // anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
+        // anim.SetBool("isMoving?", isPlayerMoving);
+        // anim.SetFloat("LastMoveX", lastMove.x);
+        // anim.SetFloat("LastMoveY", lastMove.y);
     }
 }

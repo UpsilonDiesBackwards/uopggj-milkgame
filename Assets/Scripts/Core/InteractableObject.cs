@@ -8,8 +8,7 @@ public class InteractableObject : MonoBehaviour
 {
     public GameObject UI;
 
-    [TextArea(5,5)]
-    public string Dialouge;
+    public List<string> Dialouge;
     private bool isPlayerNear = false;
 
     void Start() {

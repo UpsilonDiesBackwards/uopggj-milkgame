@@ -486,6 +486,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge
+      value: I, EvaX humbly submit a toast to Nicholas Alexander for successfully
+        managing to pirate WarCraft III.
+      objectReference: {fileID: 0}
     - target: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_Name
       value: IObject
@@ -589,6 +594,18 @@ PrefabInstance:
     - target: {fileID: 6471373561831774919, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8381959976911377439, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
+      propertyPath: yapSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d7c180583c89d84a960d08f898a0b00, type: 3}
+    - target: {fileID: 8381959976911377439, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
+      propertyPath: minYapPitch
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8381959976911377439, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
+      propertyPath: dialogueTypeSpeed
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
