@@ -17,11 +17,7 @@ public class UIManager : MonoBehaviour
     
     public void OpenDialogue(List<string> dialogue) {
         currentDialogueLines = dialogue;
-        
         StartCoroutine(TypeDialogue());
-        
-        // dialogueText.gameObject.SetActive(true);
-        // dialogueText.GetComponent<TextMeshProUGUI>().text = dialogueToDisplay;
     }
 
     public void CloseDialogue() {
@@ -33,8 +29,7 @@ public class UIManager : MonoBehaviour
     {
         typing = true;
         dialogueText.gameObject.SetActive(true);
-
-
+        
         foreach (string line in currentDialogueLines) {
             dialogueText.text = "";
 
@@ -55,9 +50,8 @@ public class UIManager : MonoBehaviour
 
     void PlayYapSound() {
         if (yapSound == null) {
-            return; 
+            return;
         }
-        
         AudioSource aSource = GetComponent<AudioSource>();
         if (aSource == null) {
             aSource = gameObject.AddComponent<AudioSource>();
