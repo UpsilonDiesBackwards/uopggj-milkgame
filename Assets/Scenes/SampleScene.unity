@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &465283108 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+  m_PrefabInstance: {fileID: 4398456648299546374}
+  m_PrefabAsset: {fileID: 0}
 --- !u!61 &845853023
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -168,6 +173,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!224 &911604852 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1789065115338630495, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
+  m_PrefabInstance: {fileID: 4765667695856070367}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1094273423
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,15 +454,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 911604852}
     m_Modifications:
     - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4811252
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4811252
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4811252
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.26
+      value: -458.86835
       objectReference: {fileID: 0}
     - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08
+      value: -259.7691
       objectReference: {fileID: 0}
     - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_LocalPosition.z
@@ -464,15 +486,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -490,6 +512,31 @@ PrefabInstance:
       propertyPath: Dialouge
       value: I, EvaX humbly submit a toast to Nicholas Alexander for successfully
         managing to pirate WarCraft III.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[0]
+      value: I, EvaX humbly submit a toast to Nicholas Alexander
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[1]
+      value: for successfully managing to pirate WarCraft III so he may play defense
+        of the ancients.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[2]
+      value: Congratulations, Nick.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[3]
+      value: Enjoy your dota.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[4]
+      value: Congratulations, Nick. Enjoy your dota.
       objectReference: {fileID: 0}
     - target: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_Name
@@ -609,7 +656,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1789065115338630495, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 465283108}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
 --- !u!4 &5196222960678152218
@@ -757,4 +807,3 @@ SceneRoots:
   - {fileID: 5196222960678152218}
   - {fileID: 1094273425}
   - {fileID: 4765667695856070367}
-  - {fileID: 4398456648299546374}
