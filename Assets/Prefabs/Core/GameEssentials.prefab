@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1370208675676570701
 RectTransform:
   m_ObjectHideFlags: 0
@@ -249,7 +249,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ca38f247843f3f44aac17c0128a898c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   dialogueText: {fileID: 4340365253792880341}
+  dialogueTypeSpeed: 0
+  advanceDelay: 1
+  yapSound: {fileID: 0}
+  minYapPitch: 0.2
+  maxYapPitch: 1.2
 --- !u!1 &3871377630407922988
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1556531024167418038, guid: a3d558ac0a68ee74693ab2580631a37d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.22
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 1556531024167418038, guid: a3d558ac0a68ee74693ab2580631a37d, type: 3}
       propertyPath: m_LocalPosition.z
