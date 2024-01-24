@@ -5,6 +5,9 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
+    [Header("References")]
+    public GameObject player;
+
     [Header("Dialogue")]
     private List<string> currentDialogueLines = new List<string>();
     public TextMeshProUGUI dialogueText;
@@ -14,10 +17,22 @@ public class UIManager : MonoBehaviour
     public float minYapPitch = 0.2f;
     public float maxYapPitch = 1.2f;
     private bool typing = false;
-    
+    private bool canAdvanceDialogue = true;
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
     public void OpenDialogue(List<string> dialogue) {
-        currentDialogueLines = dialogue;
-        StartCoroutine(TypeDialogue());
+        if (canAdvanceDialogue)
+        {
+            currentDialogueLines = dialogue;
+            StartCoroutine(TypeDialogue());
+
+            canAdvanceDialogue = false;
+            player.GetComponent<PlayerController>().freeze = true;
+        }
     }
 
     public void CloseDialogue() {
@@ -43,8 +58,11 @@ public class UIManager : MonoBehaviour
             }
             yield return new WaitForSeconds(advanceDelay);
         }
+
         typing = false;
         currentDialogueLines.Clear();
+        canAdvanceDialogue = true;
+        player.GetComponent<PlayerController>().freeze = false;
         CloseDialogue();
     }
 

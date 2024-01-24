@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour {
     private Vector2 lastMove;
 
     [Header("Properties")] private Vector3 origLocalScale;
+    public bool freeze = false;
     
     void Start()
     {
@@ -25,7 +26,15 @@ public class PlayerController : MonoBehaviour {
         origLocalScale = transform.localScale;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
+    {
+       if (!freeze)
+       {
+            Movement();
+       }
+    }
+
+    void Movement()
     {
         isPlayerMoving = false;
 
@@ -58,9 +67,6 @@ public class PlayerController : MonoBehaviour {
         }
 
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-        // anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
         anim.SetBool("isMoving?", isPlayerMoving);
-        // anim.SetFloat("LastMoveX", lastMove.x);
-        // anim.SetFloat("LastMoveY", lastMove.y);
     }
 }
