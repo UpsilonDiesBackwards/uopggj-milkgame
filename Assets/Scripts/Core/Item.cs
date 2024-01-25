@@ -19,7 +19,9 @@ public class Item : InteractableObject
     {
         if (isPlayerNear == true && Input.GetKeyUp(KeyCode.E))
         {
+            Debug.Log(gameObject.GetComponent<Item>().itemID);          
             inventory.AddItem(gameObject.GetComponent<Item>());
+
         }
     }
 }
