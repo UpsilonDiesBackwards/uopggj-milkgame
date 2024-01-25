@@ -9,6 +9,7 @@ public class Inventory : MonoBehaviour
 
     public void AddItem(Item item)
     {
+        Debug.Log(item.itemID);
         items[item.itemID] = item;
     }
 }

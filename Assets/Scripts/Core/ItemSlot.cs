@@ -22,9 +22,14 @@ public class ItemSlot : InteractableObject
         {
             foreach (Item item in inventory.items)
             {
-                if (item.name == acceptedItem)
+                if (item != null)
                 {
-                    //do the thing
+                    Debug.Log(item.itemName);
+                    Debug.Log(acceptedItem);
+                    if (item.itemName == acceptedItem)
+                    {
+                        Debug.Log("win");
+                    }
                 }
             }
         }
