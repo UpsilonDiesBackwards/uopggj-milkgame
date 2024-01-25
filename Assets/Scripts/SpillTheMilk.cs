@@ -55,7 +55,7 @@ public class SpillTheMilk : MonoBehaviour {
     }
 
     public void StartGame() {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("LeHouse");
     }
 
     public IEnumerator FadeIn(float time, TextMeshProUGUI i) {

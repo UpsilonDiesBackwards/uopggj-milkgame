@@ -354,7 +354,7 @@ MonoBehaviour:
   gameCreditText: {fileID: 1766202480}
   playButton: {fileID: 1848619583}
   isTextFadingIn: 0
-  textFadeInDuration: 2
+  textFadeInDuration: 4
 --- !u!4 &643951824
 Transform:
   m_ObjectHideFlags: 0
