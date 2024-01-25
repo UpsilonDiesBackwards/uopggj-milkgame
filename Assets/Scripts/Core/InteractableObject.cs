@@ -9,7 +9,7 @@ public class InteractableObject : MonoBehaviour
     public GameObject UI;
 
     public List<string> Dialouge;
-    private bool isPlayerNear = false;
+    public bool isPlayerNear = false;
 
     void Start() {
         UI = GameObject.FindGameObjectWithTag("UserInterface");
