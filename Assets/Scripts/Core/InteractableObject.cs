@@ -6,13 +6,18 @@ using UnityEngine;
 
 public class InteractableObject : MonoBehaviour
 {
-    [TextArea(5,5)]
-    public String Dialouge;
+    public GameObject UI;
+
+    public List<string> Dialouge;
     private bool isPlayerNear = false;
+
+    void Start() {
+        UI = GameObject.FindGameObjectWithTag("UserInterface");
+    }
 
     void Update() {
         if (isPlayerNear == true && Input.GetKeyUp(KeyCode.E)) {
-            Debug.Log(Dialouge);
+            UI.GetComponent<UIManager>().OpenDialogue(Dialouge);
         }
     }
 
