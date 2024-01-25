@@ -37,7 +37,7 @@ public class UIManager : MonoBehaviour
 
     public void CloseDialogue() {
         dialogueText.gameObject.SetActive(false);
-        dialogueText.GetComponent<TextMeshPro>().text = "";
+        dialogueText.text = "";
     }
     
     IEnumerator TypeDialogue()
@@ -60,9 +60,10 @@ public class UIManager : MonoBehaviour
         }
 
         typing = false;
-        currentDialogueLines.Clear();
+        // currentDialogueLines.Clear();
         canAdvanceDialogue = true;
         player.GetComponent<PlayerController>().freeze = false;
+        
         CloseDialogue();
     }
 

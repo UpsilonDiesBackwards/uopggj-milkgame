@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour {
         origLocalScale = transform.localScale;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
        if (!freeze)
        {
