@@ -61,11 +61,6 @@ public class PlayerController : MonoBehaviour {
             _graphic.transform.localScale = new Vector3(-origLocalScale.x, transform.localScale.y, transform.localScale.z);
         }
 
-        
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            rb.velocity = new(rb.velocity.x, 10f);
-        }
-
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetBool("isMoving?", isPlayerMoving);
     }
