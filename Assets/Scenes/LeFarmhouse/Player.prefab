@@ -101,9 +101,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0122aaf589e6e7842bbd758382df77e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stepSound:
+  - {fileID: 8300000, guid: de4e2eb06c196224b80c9ce72f7fc1d5, type: 3}
+  - {fileID: 8300000, guid: 69512b234b2ebb043b5fb068ed3d5578, type: 3}
+  - {fileID: 8300000, guid: 678e9d228b8d21b44806481ff1cddf82, type: 3}
+  - {fileID: 8300000, guid: 98d506dd4c7fbf943810d8cac0b2bcc1, type: 3}
+  - {fileID: 8300000, guid: 9973c90726c49584191880ea5fc3673e, type: 3}
   _graphic: {fileID: 168845726072370575}
   moveSpeed: 6
   freeze: 0
+  minStepPitch: 0.2
+  maxStepPitch: 1.2
 --- !u!50 &7029607044778513658
 Rigidbody2D:
   serializedVersion: 4

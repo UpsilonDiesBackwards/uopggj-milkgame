@@ -286,7 +286,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_Name
-      value: MilkMan
+      value: MilkManBefore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -442,6 +446,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a78da3f00f3328541b4526c0b0b5ec5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lineThickness: 1.25
+  lineIntensity: 0.5
+  fillAmount: 0.2
+  lineColor0: {r: 1, g: 0, b: 0, a: 1}
+  lineColor1: {r: 0, g: 1, b: 0, a: 1}
+  lineColor2: {r: 0, g: 0, b: 1, a: 1}
+  additiveRendering: 0
+  backfaceCulling: 1
+  fillTexture: {fileID: 0}
+  fillTextureScale: {x: 1, y: 1}
+  useFillColor: 0
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  cornerOutlines: 0
+  addLinesBetweenColors: 0
+  scaleWithScreenSize: 1
+  alphaCutoff: 0.5
+  flipY: 0
+  sourceCamera: {fileID: 0}
+  autoEnableOutlines: 0
+  outlineCamera: {fileID: 0}
+  outlineShaderMaterial: {fileID: 0}
+  renderTexture: {fileID: 0}
+  extraRenderTexture: {fileID: 0}
 --- !u!1 &228153742
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +507,184 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1287432240289330764, guid: c439c0897db49684e848a472464db5d5, type: 3}
   m_PrefabInstance: {fileID: 696329749}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &336743966
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Size.x
+      value: 2.735931
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Size.y
+      value: 4.4508915
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.07109523
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.49334335
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.2711748
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5147996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.w
+      value: 0.7266667
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.x
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.y
+      value: 1.5066667
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 3.4766667
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 6.826667
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 6.826667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133634408986373064, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 68c75e1d93424e44a96125bdd763323f, type: 3}
+    - target: {fileID: 4133634408986373064, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133634408986373064, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133634408986373064, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133634408986373064, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.77019
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.77019
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.77019
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3668
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619664635521406512, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: isPlayerNear
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[0]
+      value: (You pass the MilkMan the glass you brought for his Milk and his face
+        lights up in joy!)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[1]
+      value: '"Woo, gee thanks kiddo! Here''s a train boarding pass, on the house!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[2]
+      value: (He reaches into his back pocket and passes you a crumpled train ticket)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[3]
+      value: '"No Glass, No Pass, simple as that!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[4]
+      value: (You agree to get him a glass, it seems to be the only way to get through)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[5]
+      value: (what a jerk)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Name
+      value: MilkManAfter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
 --- !u!1 &445328238
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,6 +1039,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 244018679}
+  BeforeGlass: {fileID: 1871951906}
+  AfterGlass: {fileID: 1416798480}
 --- !u!4 &702043377
 Transform:
   m_ObjectHideFlags: 0
@@ -959,6 +1166,11 @@ Transform:
 PolygonCollider2D:
   m_CorrespondingSourceObject: {fileID: 4553446227896021232, guid: 1b1c6d0629c0c6a59b9b58d7940b0ce2, type: 3}
   m_PrefabInstance: {fileID: 1300613715}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1416798480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+  m_PrefabInstance: {fileID: 336743966}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1501305221
 GameObject:
@@ -1087,6 +1299,11 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1300613717}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+--- !u!1 &1871951906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+  m_PrefabInstance: {fileID: 224862098}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2110283423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,4 +1483,5 @@ SceneRoots:
   - {fileID: 2138004904}
   - {fileID: 696329749}
   - {fileID: 224862098}
+  - {fileID: 336743966}
   - {fileID: 702043377}

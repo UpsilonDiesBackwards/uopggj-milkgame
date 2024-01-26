@@ -7,9 +7,23 @@ public class Curtain : MonoBehaviour
     public Sprite opened;
     private bool isPlayerNear = false;
 
+    public AudioClip curtainSound;
+    private bool isOpen;
+
     public void Update() {
         if (isPlayerNear && Input.GetKeyDown(KeyCode.E)) {
             gameObject.GetComponent<SpriteRenderer>().sprite = opened;
+        
+            AudioSource aSource = GetComponent<AudioSource>();
+            if (aSource == null) {
+                aSource = gameObject.AddComponent<AudioSource>();
+            }
+
+            if (!isOpen) {
+                aSource.clip = curtainSound;
+                aSource.Play();
+                isOpen = true;
+            }
         }
     }
 

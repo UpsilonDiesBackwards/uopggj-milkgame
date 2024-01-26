@@ -11,10 +11,20 @@ public class TrainTimer : MonoBehaviour
 
     public float duration = 5.0f;
     public string targetSceneName;
+    
+    public AudioClip trainAmbience;
 
     void Start() {
         player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<PlayerController>().freeze = true;
+
+        AudioSource aSource = GetComponent<AudioSource>();
+        if (aSource == null) {
+            aSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        aSource.clip = trainAmbience;
+        aSource.Play();
     }
 
     void Update() {

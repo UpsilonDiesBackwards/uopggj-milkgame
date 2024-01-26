@@ -394,7 +394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b12ba25788f9474f8dfdd584a487601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  requiresKey: 0
   targetSceneName: LeShop
+  doorSound: {fileID: 0}
 --- !u!1 &810176117
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,7 +575,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b12ba25788f9474f8dfdd584a487601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  requiresKey: 0
   targetSceneName: LeStation
+  doorSound: {fileID: 0}
 --- !u!1 &839994212
 GameObject:
   m_ObjectHideFlags: 0

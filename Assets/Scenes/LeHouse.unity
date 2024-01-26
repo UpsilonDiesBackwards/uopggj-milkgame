@@ -331,6 +331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   requiresKey: 1
   targetSceneName: LeOutside
+  doorSound: {fileID: 8300000, guid: 7e8c7343b003d7643af66967470b28c4, type: 3}
 --- !u!1 &354764816 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3701604968413524106, guid: 1b1c6d0629c0c6a59b9b58d7940b0ce2, type: 3}
@@ -1042,6 +1043,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1077762337434118862, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.750923
+      objectReference: {fileID: 0}
+    - target: {fileID: 1077762337434118862, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.628839
+      objectReference: {fileID: 0}
     - target: {fileID: 3871377630407922988, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
       propertyPath: m_Name
       value: GameEssentials
@@ -1105,7 +1114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1025743682278322455, guid: 2f9b439128ccc1331a96132479b81739, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.21
+      value: -17.13
       objectReference: {fileID: 0}
     - target: {fileID: 1025743682278322455, guid: 2f9b439128ccc1331a96132479b81739, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1147,6 +1156,30 @@ PrefabInstance:
       propertyPath: m_FollowOffset.y
       value: 2.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1457021062152679222, guid: 2f9b439128ccc1331a96132479b81739, type: 3}
+      propertyPath: stepSound.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1457021062152679222, guid: 2f9b439128ccc1331a96132479b81739, type: 3}
+      propertyPath: stepSound.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 69512b234b2ebb043b5fb068ed3d5578, type: 3}
+    - target: {fileID: 1457021062152679222, guid: 2f9b439128ccc1331a96132479b81739, type: 3}
+      propertyPath: stepSound.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 678e9d228b8d21b44806481ff1cddf82, type: 3}
+    - target: {fileID: 1457021062152679222, guid: 2f9b439128ccc1331a96132479b81739, type: 3}
+      propertyPath: stepSound.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 98d506dd4c7fbf943810d8cac0b2bcc1, type: 3}
+    - target: {fileID: 1457021062152679222, guid: 2f9b439128ccc1331a96132479b81739, type: 3}
+      propertyPath: stepSound.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9973c90726c49584191880ea5fc3673e, type: 3}
+    - target: {fileID: 1457021062152679222, guid: 2f9b439128ccc1331a96132479b81739, type: 3}
+      propertyPath: stepSound.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: de4e2eb06c196224b80c9ce72f7fc1d5, type: 3}
     - target: {fileID: 3050552081086385395, guid: 2f9b439128ccc1331a96132479b81739, type: 3}
       propertyPath: m_LookaheadIgnoreY
       value: 0
