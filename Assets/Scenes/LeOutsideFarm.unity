@@ -172,6 +172,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8bc5fdaf08eda254186fc289ec692acc, type: 3}
+    - target: {fileID: 2886131426303159462, guid: c439c0897db49684e848a472464db5d5, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 3288286504403124397, guid: c439c0897db49684e848a472464db5d5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.97043926
@@ -243,11 +247,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1077762337434118862, guid: 039f60a654eafa248aa70ab2d4d09ff2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.32282877
       objectReference: {fileID: 0}
     - target: {fileID: 1077762337434118862, guid: 039f60a654eafa248aa70ab2d4d09ff2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.3
+      value: 2.1119273
       objectReference: {fileID: 0}
     - target: {fileID: 3813530528906436768, guid: 039f60a654eafa248aa70ab2d4d09ff2, type: 3}
       propertyPath: m_BlendUpdateMethod
@@ -735,35 +739,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4553446227896021232, guid: 74af27ef1bd8b104b96491202d6e10c4, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
-      value: -27.815208
+      value: -27.547146
       objectReference: {fileID: 0}
     - target: {fileID: 4553446227896021232, guid: 74af27ef1bd8b104b96491202d6e10c4, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
-      value: -6.671381
+      value: -6.202265
       objectReference: {fileID: 0}
     - target: {fileID: 4553446227896021232, guid: 74af27ef1bd8b104b96491202d6e10c4, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].x
-      value: 1.2391583
+      value: -16.05114
       objectReference: {fileID: 0}
     - target: {fileID: 4553446227896021232, guid: 74af27ef1bd8b104b96491202d6e10c4, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].y
-      value: -6.8667927
+      value: -6.2636423
       objectReference: {fileID: 0}
     - target: {fileID: 4553446227896021232, guid: 74af27ef1bd8b104b96491202d6e10c4, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].x
-      value: 19.883478
+      value: -5.247772
       objectReference: {fileID: 0}
     - target: {fileID: 4553446227896021232, guid: 74af27ef1bd8b104b96491202d6e10c4, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].y
-      value: -6.6451735
+      value: -6.1760573
       objectReference: {fileID: 0}
     - target: {fileID: 4553446227896021232, guid: 74af27ef1bd8b104b96491202d6e10c4, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[7].x
-      value: 20.036308
+      value: -5.631071
       objectReference: {fileID: 0}
     - target: {fileID: 4553446227896021232, guid: 74af27ef1bd8b104b96491202d6e10c4, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[7].y
-      value: 0.5044293
+      value: 4.391396
       objectReference: {fileID: 0}
     - target: {fileID: 5538743181563894872, guid: 74af27ef1bd8b104b96491202d6e10c4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -815,6 +819,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5538743181563894872, guid: 74af27ef1bd8b104b96491202d6e10c4, type: 3}
   m_PrefabInstance: {fileID: 1515174301}
   m_PrefabAsset: {fileID: 0}
+--- !u!60 &1515174303 stripped
+PolygonCollider2D:
+  m_CorrespondingSourceObject: {fileID: 4553446227896021232, guid: 74af27ef1bd8b104b96491202d6e10c4, type: 3}
+  m_PrefabInstance: {fileID: 1515174301}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1610005327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -829,7 +838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1025743682278322455, guid: 90c2ff32ce5a39647aef3108356de1d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -7.35
       objectReference: {fileID: 0}
     - target: {fileID: 1025743682278322455, guid: 90c2ff32ce5a39647aef3108356de1d8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -906,7 +915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ConfineMode: 0
   m_BoundingVolume: {fileID: 0}
-  m_BoundingShape2D: {fileID: 0}
+  m_BoundingShape2D: {fileID: 1515174303}
   m_ConfineScreenEdges: 1
   m_Damping: 0
 --- !u!1 &2084159797
