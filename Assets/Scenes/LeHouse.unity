@@ -824,25 +824,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[0]
-      value: Morning Son!
+      value: '"Morning Son!"'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[1]
-      value: Unfortunately, you still can't have cereal for breakfast as your dad
-        still hasn't returned wih the milk
+      value: '"Unfortunately, you still can''t have cereal for breakfast as your
+        dad still hasn''t returned wih the milk"'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[2]
-      value: I cant go to the city to get it myself as I need to go to work
+      value: '"I cant go to the city to get it myself as I need to go to work"'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[3]
-      value: Take the front door key and get a train to the city to get some milk
-        yourself.
+      value: '"Take the front door key and get a train to the city to get some milk
+        yourself."'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[4]
-      value: And don't come back without it! I'll whip ya.
+      value: And don't come back without it!"
       objectReference: {fileID: 0}
     - target: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_Name

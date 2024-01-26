@@ -663,8 +663,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[1]
-      value: Oh? That's strange... well alright then. You get to 'the milk store'
-        through the farm.
+      value: '"Oh? That''s strange... fine! guess i''ll help you then. You get to
+        ''The Milk Store'' through the farm at the end of the road."'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[2]
@@ -1288,25 +1288,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[1]
-      value: Sure! I know where it is! But if you want it, it will cost you!
+      value: '"Sure! I know where it is! But if you want it, it will cost you!"'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[2]
-      value: I need some information, see. I need to know where my child is
+      value: '"I need some information, see. I need to know where my child is"'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[3]
-      value: I woke up one day and the bugger up'ed and left! I don't know how, she's
-        four!
+      value: '"I woke up one day and the bugger up''ed and left! I don''t know how,
+        she''s four!"'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[4]
-      value: If you ask those... "friends" of mine over there and let me know what
-        they say, I will tell you where you can
+      value: '"If you ask those... "friends" of mine over there and let me know what
+        they say, I will tell you where you can"'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[5]
-      value: find 'the milk store'. Capiche?
+      value: '"find ''The Milk Store''. Capiche?"'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[6]
@@ -1595,7 +1595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[0]
-      value: yeah.. she never had a child.
+      value: '"yeah.. she never had a child."'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[1]
@@ -1740,7 +1740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[0]
-      value: I don't know, maybe [ UNTITLED NPC #56709 knows?
+      value: '"I don''t know, maybe [ UNTITLED NPC #56709 ] knows?"'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[1]
