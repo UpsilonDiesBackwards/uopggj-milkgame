@@ -8,7 +8,6 @@ public class GlobalGameplayVariables : MonoBehaviour
 
     public bool hasHouseKey = false;
     public int amountSpokenToo = 0;
-
     public bool hasMilkGlass = false;
    
     private void Awake() 

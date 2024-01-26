@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Curtain : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class Curtain : MonoBehaviour
 
     public AudioClip curtainSound;
     private bool isOpen;
+
+    public float choiceDelay = 12.0f;
+    private bool startCountdown = false;
 
     public void Update() {
         if (isPlayerNear && Input.GetKeyDown(KeyCode.E)) {
@@ -24,6 +28,16 @@ public class Curtain : MonoBehaviour
                 aSource.Play();
                 isOpen = true;
             }
+
+            startCountdown = true;
+        }
+
+        if (startCountdown) {
+            choiceDelay -= Time.deltaTime;
+        }
+
+        if (choiceDelay <= 0.0) {
+            SceneManager.LoadScene("LeChoice");
         }
     }
 

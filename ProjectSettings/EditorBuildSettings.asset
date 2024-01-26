@@ -29,9 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndingMilk.unity
     guid: c29a471167b41284188ecb8d0fa958f4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/EndingDad.unity
-    guid: b533cc93c94e8ce4b9efbc18dd86dad9
+    guid: 91542d9e98ea715418c2b852665ffcab
   - enabled: 1
     path: Assets/Scenes/LeOutsideFarm.unity
     guid: 8e88362fa2c0ffd44941c1173da33482
@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LeShop2.unity
     guid: 01e79c52510552b4bac60e921b92b0d2
+  - enabled: 1
+    path: Assets/Scenes/LeChoice.unity
+    guid: acacbced163ed174fbe3037f84e01540
   m_configObjects: {}
