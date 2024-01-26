@@ -167,6 +167,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Size.x
+      value: 9.579174
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Size.y
+      value: 14.954308
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Offset.x
+      value: -6.17066
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.17200303
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 20.48
       objectReference: {fileID: 0}
@@ -252,14 +268,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 197927208}
+      addedObject: {fileID: 197927213}
   m_SourcePrefab: {fileID: 100100000, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
 --- !u!1 &197927207 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
   m_PrefabInstance: {fileID: 197927206}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &197927208
+--- !u!114 &197927213
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -268,14 +284,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 197927207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b9ee898be709474896c034a95bed105, type: 3}
+  m_Script: {fileID: 11500000, guid: d6240ccca5eaccd44a8650880dc9ccbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI: {fileID: 328138092}
-  Dialouge:
-  - asdfghj
-  isPlayerNear: 0
-  inventoryObj: {fileID: 0}
 --- !u!1 &328138092 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1861118425727057319, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
@@ -872,6 +883,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Size.x
+      value: 10.23222
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Size.y
+      value: 12.665495
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Offset.x
+      value: 6.2521563
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.30415916
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462275650608490747, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 20.48
       objectReference: {fileID: 0}
@@ -955,6 +982,36 @@ PrefabInstance:
       propertyPath: UI
       value: 
       objectReference: {fileID: 328138092}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[0]
+      value: (You ask her if she knows where 'the milk shop' is))
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[1]
+      value: Sure! I know where it is! But if you want it, it will cost you!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[2]
+      value: I need some information, see. I need to know where my child is
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[3]
+      value: I woke up one day and the bugger up'ed and left! I don't know how, she's
+        four!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[4]
+      value: If you ask those... "friends" of mine over there and let me know what
+        they say, I will tell you where you can
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: Dialouge.Array.data[5]
+      value: find 'the milk store'. Capiche?
+      objectReference: {fileID: 0}
     - target: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: m_Name
       value: IObject_Woman
@@ -962,10 +1019,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1515308788}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
 --- !u!1001 &1129067716
 PrefabInstance:
@@ -1035,33 +1089,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8381959976911377439, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
+      propertyPath: dialogueTypeSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c084fc4b668d7c43a1282c4ce45bc34, type: 3}
---- !u!1 &1515308783 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
-  m_PrefabInstance: {fileID: 1025100502}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1515308788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515308783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b9ee898be709474896c034a95bed105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UI: {fileID: 328138092}
-  Dialouge:
-  - 
-  isPlayerNear: 0
-  inventoryObj: {fileID: 0}
 --- !u!1001 &1574002845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1156,14 +1192,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1574002847}
+      addedObject: {fileID: 1574002852}
   m_SourcePrefab: {fileID: 100100000, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
 --- !u!1 &1574002846 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
   m_PrefabInstance: {fileID: 1574002845}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1574002847
+--- !u!114 &1574002852
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1172,13 +1208,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1574002846}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b9ee898be709474896c034a95bed105, type: 3}
+  m_Script: {fileID: 11500000, guid: d6240ccca5eaccd44a8650880dc9ccbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI: {fileID: 328138092}
-  Dialouge: []
-  isPlayerNear: 0
-  inventoryObj: {fileID: 0}
 --- !u!1001 &1584969141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1277,14 +1309,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1584969143}
+      addedObject: {fileID: 1584969148}
   m_SourcePrefab: {fileID: 100100000, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
 --- !u!1 &1584969142 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7591855515413555737, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
   m_PrefabInstance: {fileID: 1584969141}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1584969143
+--- !u!114 &1584969148
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1293,13 +1325,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1584969142}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b9ee898be709474896c034a95bed105, type: 3}
+  m_Script: {fileID: 11500000, guid: d6240ccca5eaccd44a8650880dc9ccbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI: {fileID: 328138092}
-  Dialouge: []
-  isPlayerNear: 0
-  inventoryObj: {fileID: 0}
 --- !u!1 &1658745269
 GameObject:
   m_ObjectHideFlags: 0

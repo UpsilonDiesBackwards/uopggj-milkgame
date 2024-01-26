@@ -6,17 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class WhiskyBar : MonoBehaviour
 {
-    GameObject inventoryObj;
-    Inventory inventory;
+    public bool requiresKey = false;
 
     public string targetSceneName;
     private bool isPlayerNear = false;
-
-    void Start()
-    {
-        inventoryObj = GameObject.FindGameObjectWithTag("Inventory");
-        inventory = inventoryObj.GetComponent<Inventory>();
-    }
 
     void Update() {
         LoadScene();
@@ -24,7 +17,11 @@ public class WhiskyBar : MonoBehaviour
 
     void LoadScene() {
         if (isPlayerNear == true && Input.GetKeyUp(KeyCode.E)) {
-            SceneManager.LoadScene(targetSceneName);
+            if (!requiresKey) { SceneManager.LoadScene(targetSceneName); }
+
+            if (requiresKey && GlobalGameplayVariables.Instance.hasHouseKey) {
+                SceneManager.LoadScene(targetSceneName);
+            }
         }
     }
 
