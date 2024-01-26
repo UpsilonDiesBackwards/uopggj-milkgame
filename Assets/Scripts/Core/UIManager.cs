@@ -19,7 +19,7 @@ public class UIManager : MonoBehaviour
     private bool typing = false;
     private bool canAdvanceDialogue = true;
 
-    private void Start()
+    private void Update()
     {
         player = GameObject.FindGameObjectWithTag("Player");
     }

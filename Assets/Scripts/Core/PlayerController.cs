@@ -1,12 +1,11 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using TMPro;
+
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-    [Header("Reference")] [SerializeField] private GameObject _graphic;
+    [Header("References")] 
+    public AudioClip[] stepSound = new AudioClip[5];
+    [SerializeField] private GameObject _graphic;
     
     private Animator anim;
     private Rigidbody2D rb;
@@ -17,7 +16,9 @@ public class PlayerController : MonoBehaviour {
 
     [Header("Properties")] private Vector3 origLocalScale;
     public bool freeze = false;
-    
+    public float minStepPitch = 0.2f;
+    public float maxStepPitch = 1.2f;
+
     void Start()
     {
         anim = GetComponent<Animator>();    
@@ -63,5 +64,18 @@ public class PlayerController : MonoBehaviour {
 
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetBool("isMoving?", isPlayerMoving);
+    }
+
+    public void StepSound() {
+        AudioSource aSource = GetComponent<AudioSource>();
+        if (aSource == null) {
+            aSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        if (!aSource.isPlaying) {
+            aSource.clip = stepSound[UnityEngine.Random.Range(0, stepSound.Length)];
+            aSource.pitch = UnityEngine.Random.Range(minStepPitch, maxStepPitch);
+            aSource.Play();
+        }
     }
 }

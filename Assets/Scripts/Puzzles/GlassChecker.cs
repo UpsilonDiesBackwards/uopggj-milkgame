@@ -6,10 +6,17 @@ public class GlassChecker : MonoBehaviour
 {
     public GameObject door;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public GameObject BeforeGlass;
+    public GameObject AfterGlass;
+
+    void Start() {
+        if (!GlobalGameplayVariables.Instance.hasMilkGlass) {
+            BeforeGlass.SetActive(true);
+            AfterGlass.SetActive(false);
+        } else {
+            BeforeGlass.SetActive(false);
+            AfterGlass.SetActive(true);
+        }
     }
 
     // Update is called once per frame
