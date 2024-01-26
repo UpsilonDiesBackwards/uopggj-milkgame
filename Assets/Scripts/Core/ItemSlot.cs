@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ItemSlot : InteractableObject
 {
@@ -9,6 +10,8 @@ public class ItemSlot : InteractableObject
 
     GameObject inventoryObj;
     Inventory inventory;
+
+    public string targetSceneName;
 
     void Start()
     {
@@ -26,9 +29,8 @@ public class ItemSlot : InteractableObject
                 {
                     Debug.Log(item.itemName);
                     Debug.Log(acceptedItem);
-                    if (item.itemName == acceptedItem)
-                    {
-                        Debug.Log("win");
+                    if (item.itemName == acceptedItem) {
+                        SceneManager.LoadScene(targetSceneName);
                     }
                 }
             }

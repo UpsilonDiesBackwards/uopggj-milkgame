@@ -18,15 +18,17 @@ public class SpillTheMilk : MonoBehaviour {
     [Header("Text and Buttons")] 
     public TextMeshProUGUI gameTitleText;
     public TextMeshProUGUI gameCreditText;
+    public TextMeshProUGUI pressEText;
 
-    public GameObject playButton;
     public bool isTextFadingIn = false;
     public float textFadeInDuration = 2f;
+    
+    public bool canPlayGame = false;
 
     private void Start() {
-        playButton.SetActive(false);
         gameTitleText.color = new Color(gameTitleText.color.r, gameTitleText.color.g, gameTitleText.color.b, 0f);
         gameCreditText.color = new Color(gameCreditText.color.r, gameCreditText.color.g, gameCreditText.color.b, 0f);
+        pressEText.color = new Color(gameCreditText.color.r, gameCreditText.color.g, gameCreditText.color.b, 0f);
     }
 
     void Update() {
@@ -50,14 +52,16 @@ public class SpillTheMilk : MonoBehaviour {
             isTextFadingIn = true;
             StartCoroutine(FadeIn(textFadeInDuration, gameTitleText));
             StartCoroutine(FadeIn(textFadeInDuration, gameCreditText));
-            playButton.SetActive(true);
+            StartCoroutine(FadeIn(textFadeInDuration, pressEText));
+
+            canPlayGame = true;
+        }
+
+        if (canPlayGame && Input.GetKeyUp(KeyCode.E)) {
+            SceneManager.LoadScene("LeHouse");
         }
     }
-
-    public void StartGame() {
-        SceneManager.LoadScene("LeHouse");
-    }
-
+    
     public IEnumerator FadeIn(float time, TextMeshProUGUI i) {
         i.color = new Color(i.color.r, i.color.g, i.color.b, 0);
         while (i.color.a < 1.0f) {

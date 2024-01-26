@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LeShop.unity
     guid: 6e058e81480176645a4ed6aaeeaa3af3
   - enabled: 1
+    path: Assets/Scenes/LeFarmhouse.unity
+    guid: 23fb991c4b740be42965900bee6e70b0
+  - enabled: 1
     path: Assets/Scenes/LeStation.unity
     guid: ae440e46ff0631448bf79824764b4ec2
   - enabled: 1
@@ -26,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LeOutsideFarm.unity
     guid: 8e88362fa2c0ffd44941c1173da33482
+  - enabled: 1
+    path: Assets/Scenes/LeTity.unity
+    guid: 237cb9d66ee243d4f80634dfcc270c90
   - enabled: 1
     path: Assets/Scenes/LeShop2.unity
     guid: 45f44afd61bfa204ebdd3695974c97f2

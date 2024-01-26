@@ -6,6 +6,7 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public Item[] items;
+    public int NPCCount;
 
     public void AddItem(Item item)
     {
