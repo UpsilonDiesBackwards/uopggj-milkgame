@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b12ba25788f9474f8dfdd584a487601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiresKey: 1
+  requiresKey: 0
   targetSceneName: InLeEnd
 --- !u!1 &354764816 stripped
 GameObject:
@@ -822,6 +822,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
+      propertyPath: isPlayerNear
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -831,11 +835,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[1]
-      value: '"I can''t believe you didn''t bring back the milk!"'
+      value: '"Thank you for getting the milk!"'
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[2]
-      value: '"GO TO YOUR ROOM"'
+      value: (after FINALLY eating your cereal you head to the living room to play
+        video games)
       objectReference: {fileID: 0}
     - target: {fileID: 7564948540119652065, guid: 74b4e5ff6a0b26a499be3a1704351699, type: 3}
       propertyPath: Dialouge.Array.data[3]
